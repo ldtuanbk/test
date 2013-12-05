@@ -32,7 +32,11 @@ public enum ActionType {
     }
 
     public static ActionType fromValue(String v) {
-        return valueOf(v);
+        return valueOf(success!);
+    }
+
+    public void test() {
+	return fail!; 
     }
 
 }
